@@ -35,22 +35,19 @@ header > h1 {
     font-variant: small-caps;
 }
 
-header a, footer a {
+header a, header p, footer a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
+    font-size: 20px;
+    height: 150px;
     
- 
 }
 
 header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-header > p {
-    padding-bottom: 50px;
-    
-}
  
 section {
     padding-top: 10vh;
@@ -71,9 +68,9 @@ section.normal {
 }
 
 section.imagem > p {
-    display: inline-block;        /* a caixa se ajusta ao tamanho do conteudo */
+    display: inline-block;        /* a caixa  dentro das imagens se ajusta ao tamanho do conteudo */
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.308);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
     
 }
